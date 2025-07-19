@@ -1,0 +1,143 @@
+@media only screen and (max-width: 440px) {
+
+    .parent_container,
+    .container {
+        max-width: 440px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 10px;
+        border: 2px solid red;
+    }
+
+    header .header_wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header .header_wrapper .naw_wrap {
+        display: none;
+    }
+
+    .banner .tittle {
+        max-width: 420px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .banner .tittle h1 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+    }
+
+    .banner .tittle p {
+        font-size: 12px;
+        line-height: 18px;
+        margin: 28px 0 40px 0;
+    }
+
+    .banner .tittle .sub_line,
+    .feedback .container .wrap .sub_line {
+        position: absolute;
+        top: 18px;
+        right: 3px;
+        width: 100%;
+    }
+
+    .feedback .container .wrap .sub_line {
+        right: 5px;
+    }
+
+    .feedback {
+        margin: 90px 0 70px 0;
+    }
+
+    .feedback .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feedback .container .wrap {
+        gap: 28px;
+    }
+
+    .feedback .container .wrap h1 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 28px;
+    }
+
+    .feedback .container .wrap p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .feedback .container .pictr {
+        order: -1;
+        width: 100%;
+    }
+
+    .feedback .container .pictr img {
+        width: 100%;
+    }
+
+    .service {
+        margin: 70px 0 180px 0;
+    }
+
+    .service .container {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .service .container .item {
+        max-width: 138px;
+        margin: 0%;
+    }
+
+    .service .container .item h4 {
+        font-size: 12px;
+    }
+
+    .service .container .item p {
+        font-style: 12px;
+        line-height: 18px;
+    } 
+       
+     .objeckt{
+        background-color: rgb(16, 187, 135);
+        position: relative;         
+     }
+
+     .objeckt .object_wrap{
+        width: 100%;
+        justify-content: start;
+     }
+
+     .object .object_wrap .child{
+        position: absolute;
+        left: 0;
+        top:100px;
+        bottom: 0;
+        width: 100%;
+     }
+
+    .objeckt .object_wrap > img{
+        display: none;
+    }
+
+    .objeckt .object_wrap .kicik{
+        width: 100%;
+    }
+
+    .objeckt .object_wrap .kicik img{
+        width: 100%;
+    }
+
+    .objeckt .object_wrap .child img:first-child{
+        width: 100%;
+    }
+
+}
