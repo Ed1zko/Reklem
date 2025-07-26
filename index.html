@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="wrapper">
+    <div class="wrapper">  
         <header>
             <div class="parent_container">
                 <div class="header_wrapper">
@@ -22,19 +22,19 @@
                                     <img src="./assets/icons/main_bar.svg" alt="not found main_bar">
                                 </li>
                                 <li>
-                                    <a href="#">О компании</a>
+                                    <a href="#about">О компании</a>
                                 </li>
                                 <li>
-                                    <a href="#">Каталог</a>
+                                    <a href="#catalog">Каталог</a>
                                 </li>
                                 <li>
-                                    <a href="#">Акции</a>
+                                    <a href="#populars">Акции</a>
                                 </li>
                                 <li>
-                                    <a href="#">Услуги</a>
+                                    <a href="#service">Услуги</a>
                                 </li>
                                 <li>
-                                    <a href="#">Контакты</a>
+                                    <a href="#contact">Контакты</a>
                                 </li>
                                 <li>
                                     <img src="./assets/icons/search.svg" alt="not found search">
@@ -53,10 +53,12 @@
                     </div>
                 </div>
             </div>
+        </header>
+        
+      <div class="mull">
+        <div class="line"></div>
 
-            <div class="line"></div>
-
-            <main class="banner">
+        <main class="banner">
                 <div class="tittle">
                     <h1>Планируете сделать
                         <span>принт?
@@ -71,10 +73,10 @@
                     </div>
                 </div>
                 <img src="./assets/images/banner.png" alt="not founf banner">
-            </main>
-        </header>
+        </main>
+      </div>  
 
-        <main class="feedback">
+        <main id="about" class="feedback">
             <div class="container">
                 <div class="wrap">
                     <h1> <span> Пара слов
@@ -131,7 +133,7 @@
 
         <main class="object">
             <div class="object_wrap">
-             <div class="mack">
+                <div class="mack">
                     <h1>Разместите
                         <span>
                             свое
@@ -149,13 +151,13 @@
                         <img src="./assets/icons/edit.svg" alt="not found edit">
                     </button>
                 </div>
-                <img src="./assets/icons/rek.svg" alt="not found rek">
+                <img class="rekda" src="./assets/icons/rek.svg" alt="not found rek">
                 <img class="child" src="./assets/images/window.png" alt="not found window">
                 <img class="kicik" src="./assets/icons/kicik.svg" alt="not found kicik">
             </div>
         </main>
 
-        <main class="populars">
+        <main id="populars" class="populars">
             <div class="container">
                 <h1>Популярные и новые <br>
                     <span>
@@ -217,7 +219,7 @@
             </div>
         </main>
 
-        <main class="services">
+        <main id="service" class="services">
             <div class="container">
                 <h2>Популярные услуги
                     <button class="icon_btn">
@@ -267,7 +269,7 @@
             </div>
         </main>
 
-        <main class="category">
+        <main id="catalog" class="category">
             <div class="container">
                 <h2>Основные категории
                     <button class="icon_btn">
@@ -385,7 +387,7 @@
             </div>
         </main>
 
-        <main class="contact">
+        <main id="contact" class="contact">
             <div class="container">
                 <div class="back_call">
                     <div class="back_all_item">
@@ -511,19 +513,19 @@
                     <div class="footer_inner_wrap">
                         <ul>
                             <button class="icon_btn">
-                              <li>
-                                <img src="./assets/icons/Instagram.svg" alt="not found Instagram">
-                              </li>
+                                <li>
+                                    <img src="./assets/icons/Instagram.svg" alt="not found Instagram">
+                                </li>
                             </button>
                             <button class="icon_btn">
-                              <li>
-                                <img src="./assets/icons/Facebook.svg" alt="not found Facebook">
-                              </li>
+                                <li>
+                                    <img src="./assets/icons/Facebook.svg" alt="not found Facebook">
+                                </li>
                             </button>
                             <button class="icon_btn">
-                              <li>
-                                <img src="./assets/icons/Youtube.svg" alt="not found Youtube">
-                              </li>
+                                <li>
+                                    <img src="./assets/icons/Youtube.svg" alt="not found Youtube">
+                                </li>
                             </button>
                         </ul>
                         <ul>
@@ -539,15 +541,14 @@
                             <li><a href="#">+998 99 202 2010</a></li>
                         </ul>
                         <ul>
-                            <li> <img src="./assets/icons/User-yashil.svg" 
-                                alt="not found User-yashil">
-                            <a href="#">Личный кабинет</a>
+                            <li> <img src="./assets/icons/User-yashil.svg" alt="not found User-yashil">
+                                <a href="#">Личный кабинет</a>
                             </li>
                             <li><a href="#">info@reklem.ru</a></li>
                         </ul>
                         <ul>
-                            <li> <img src="./assets/icons/Document.svg" 
-                                alt="not found  Document"><a href="#">Обработка данных</a>
+                            <li> <img src="./assets/icons/Document.svg" alt="not found  Document"><a href="#">Обработка
+                                    данных</a>
                             </li>
                             <li><a href="#">© Copyright 2025</a></li>
                         </ul>
@@ -555,8 +556,23 @@
                 </div>
             </div>
         </footer>
-
+        
     </div>
-</body>
 
+    <ul class="phone_navbar">
+        <li>
+            <img src="./assets/icons/user.svg" alt="not found user">
+        </li>
+        <li>
+            <img src="./assets/icons/korzinka.svg" alt="not found korzinka">
+        </li>
+        <li>
+            <img src="./assets/icons/Icon.svg" alt="not found Icon">
+        </li>
+        <li>
+            <img src="./assets/icons/main_bar.svg" alt="not found main_bar">
+        </li>
+    </ul>
+
+  </body>
 </html>
